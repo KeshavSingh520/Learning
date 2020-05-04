@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SilverTestSuite" duration-ms="31" started-at="2020-05-04T11:55:38Z" finished-at="2020-05-04T11:55:38Z">
+    <groups>
+      <group name="xml">
+        <method signature="TestParameter.getParameter(org.testng.ITestContext)[pri:0, instance:test.TestParameter@57baeedf]" name="getParameter" class="test.TestParameter"/>
+      </group> <!-- xml -->
+      <group name="parameter">
+        <method signature="TestParameter.getParameter(java.lang.String, java.lang.String)[pri:0, instance:test.TestParameter@57baeedf]" name="getParameter" class="test.TestParameter"/>
+      </group> <!-- parameter -->
+    </groups>
+    <test name="MS" duration-ms="31" started-at="2020-05-04T11:55:38Z" finished-at="2020-05-04T11:55:38Z">
+      <class name="test.TestParameter">
+        <test-method status="PASS" signature="getParameter(java.lang.String, java.lang.String)[pri:0, instance:test.TestParameter@57baeedf]" name="getParameter" duration-ms="9" started-at="2020-05-04T17:25:38Z" finished-at="2020-05-04T17:25:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[silver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getParameter -->
+        <test-method status="PASS" signature="getParameter(org.testng.ITestContext)[pri:0, instance:test.TestParameter@57baeedf]" name="getParameter" duration-ms="2" started-at="2020-05-04T17:25:38Z" finished-at="2020-05-04T17:25:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@713d6d91]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getParameter -->
+      </class> <!-- test.TestParameter -->
+    </test> <!-- MS -->
+  </suite> <!-- SilverTestSuite -->
+</testng-results>

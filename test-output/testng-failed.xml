@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [SilverTestSuite]" parallel="classes">
+  <test name="MS(failed)" parallel="classes">
+    <parameter name="app" value="silver"/>
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="xml"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="test.TestParameter">
+        <methods>
+          <include name="getParameter"/>
+        </methods>
+      </class> <!-- test.TestParameter -->
+    </classes>
+  </test> <!-- MS(failed) -->
+</suite> <!-- Failed suite [SilverTestSuite] -->

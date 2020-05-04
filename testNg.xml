@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SilverTestSuite" parallel="classes" thread-count="1"
+	verbose="1">
+
+	<test enabled="true" name="MS">
+		<parameter name="browser" value="chrome" />
+		<parameter name="app" value="silver" />
+		<groups>
+		<run>
+		<include name="xml" />
+		</run>
+		</groups>
+		<packages>
+		<package name="test.*"></package>
+		</packages>
+	</test>
+	
+	
+
+
+</suite>
