@@ -13,6 +13,7 @@
 <context:property-placeholder location="classpath:application.properties"/> 
 
 <context:annotation-config />
+
 <bean id="student" class="client.Student">
 <!-- <property name="name" value="${Student.name}" />
 <property name="rollNo" value="${Student.rollNo}" /> -->
