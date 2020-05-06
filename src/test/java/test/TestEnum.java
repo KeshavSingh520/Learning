@@ -1,6 +1,5 @@
 package test;
 
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import lombok.AllArgsConstructor;
@@ -11,9 +10,18 @@ import lombok.Getter;
 public class TestEnum {
 	
 	public enum app{
-	SILVER,
+	SILVER("Hi"),
 	SPRO,
-	SPRE
+	SPRE;
+	
+	String str;
+		app() {
+			this.str="hello";
+		}
+		
+	app(String str) {
+		this.str=str;
+	}
 	}
 	
 	public enum app1{

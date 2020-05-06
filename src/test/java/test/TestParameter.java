@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 public class TestParameter {
 	
 	
+	
 	@Parameters({"browser","app"})
 	@Test(groups = {"parameter"})
 	public void getParameter(String strBrowser,String strApp) {
@@ -17,6 +18,7 @@ public class TestParameter {
 	public void getParameter(ITestContext context) {
 		System.out.println("From xml: "+context.getCurrentXmlTest().getParameter("browser"));
 		System.out.println(context.getCurrentXmlTest().getIncludedGroups().toString());
+		
 	}
 
 }
